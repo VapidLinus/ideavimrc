@@ -3,6 +3,10 @@
 " For a list of available commands, visit: https://jb.gg/h38q75
 " For more examples, see: https://jb.gg/share-ideavimrc
 
+" Quick access to Open and Reload IdeaVim config
+nnoremap <leader>fed :e ~/ideavimrc/.vimrc<CR>
+nnoremap <leader>frd :action IdeaVim.ReloadVimRc.reload<CR>
+
 "" General Settings
 " Show a few lines of context around the cursor
 set scrolloff=10
@@ -27,9 +31,6 @@ nnoremap Ö :
 inoremap Ö <Esc> :
 vnoremap Ö :
 nnoremap gq :action QuickImplementations<CR>
-
-nnoremap \e :e ~\.ideavimrc<CR>
-nnoremap \r :acton IdeaVim.ReloadVimRc.reload<CR>
 
 " Set space as the leader key
 let mapleader = " "
