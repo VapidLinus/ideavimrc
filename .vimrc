@@ -96,9 +96,17 @@ nnoremap <leader>0 :action GoToTab10<CR>
 nnoremap <leader>bn :action NextTab<CR>
 nnoremap <leader>bp :action PreviousTab<CR>
 
-" Search
-nnoremap <leader>/ :action Find<CR>
-nnoremap <leader>ss :action FindInPath<CR>
+" IntelliJ search and navigation actions
+nnoremap <leader>/ :action Find<CR> " (Ctrl-F)
+nnoremap <leader>r :action Replace<CR> " (Ctrl-R)
+nnoremap <leader>gs :action FileStructurePopup<CR> " (F12)
+nnoremap <leader>ss :action SearchEverywhere<CR> " (Shift-Shift)
+nnoremap <leader>sc :action GotoClass<CR> " (Ctrl-N)
+nnoremap <leader>sf :action GotoFile<CR> " (Ctrl-Shift-N)
+nnoremap <leader>sS :action GotoSymbol<CR> " (Ctrl-Shift-Alt-N)
+nnoremap <leader>st :action TextSearchAction<CR> " (Ctrl-Alt-Shift-E)
+nnoremap <leader>sF :action FindInPath<CR> " (Ctrl-Shift-F)
+nnoremap <leader>sR :action ReplaceInPath<CR> " (Ctrl-Shift-R)
 
 "" Key Mappings
 " Use Q for formatting instead of Ex mode
