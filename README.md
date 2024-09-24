@@ -5,3 +5,5 @@ Clone this repo as a new folder called `ideavimrc` in `%userprofile%` or `~` and
 ```.vimrc
 source ~/ideavimrc/.vimrc
 ```
+
+Open the config with ` fed` and reload with ` frd` (file edit/reload dotfile).
