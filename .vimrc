@@ -3,6 +3,9 @@
 " For a list of available commands, visit: https://jb.gg/h38q75
 " For more examples, see: https://jb.gg/share-ideavimrc
 
+" Set space as the leader key
+let mapleader = " "
+
 " Quick access to Open and Reload IdeaVim config
 nnoremap <leader>fed :e ~/ideavimrc/.vimrc<CR>
 nnoremap <leader>frd :action IdeaVim.ReloadVimRc.reload<CR>
@@ -31,9 +34,6 @@ nnoremap Ö :
 inoremap Ö <Esc> :
 vnoremap Ö :
 nnoremap gq :action QuickImplementations<CR>
-
-" Set space as the leader key
-let mapleader = " "
 
 " Map the leader key to do nothing on its own
 nnoremap <leader> <Nop>
