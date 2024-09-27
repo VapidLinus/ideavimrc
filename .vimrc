@@ -109,6 +109,14 @@ nnoremap <leader>st :action TextSearchAction<CR> " (Ctrl-Alt-Shift-E)
 nnoremap <leader>sF :action FindInPath<CR> " (Ctrl-Shift-F)
 nnoremap <leader>sR :action ReplaceInPath<CR> " (Ctrl-Shift-R)
 
+" More navigation actions, respectively:
+" Select File in Project hierarchy (Alt-F1, 1)
+" Select in file Explorer (Alt-F1, 9)
+" [V]iew [I]n [F]ile Structure / [E], I guess :shrug:
+nnoremap <leader>vif :action SelectInProjectView<CR>
+nnoremap <leader>vie :action RevealIn<CR>
+nnoremap <leader>vi :action SelectIn<CR>
+
 "" Key Mappings
 " Use Q for formatting instead of Ex mode
 map Q gq
