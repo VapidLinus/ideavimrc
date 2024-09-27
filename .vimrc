@@ -75,6 +75,7 @@ nnoremap <leader>wv :vsplit<CR>
 nnoremap <leader>ws :split<CR>
 nnoremap <leader>wc :close<CR>
 nnoremap <leader>wm :action MoveEditorToOppositeTabGroup<CR>
+nnoremap <leader>wr :action MoveTabRight<CR>
 
 " Window navigation
 nnoremap <leader>wh <C-w>h
