@@ -97,17 +97,27 @@ nnoremap <leader>0 :action GoToTab10<CR>
 nnoremap <leader>bn :action NextTab<CR>
 nnoremap <leader>bp :action PreviousTab<CR>
 
-" IntelliJ search and navigation actions
-nnoremap <leader>/ :action Find<CR> " (Ctrl-F)
-nnoremap <leader>r :action Replace<CR> " (Ctrl-R)
-nnoremap <leader>gs :action FileStructurePopup<CR> " (F12)
-nnoremap <leader>ss :action SearchEverywhere<CR> " (Shift-Shift)
-nnoremap <leader>sc :action GotoClass<CR> " (Ctrl-N)
-nnoremap <leader>sf :action GotoFile<CR> " (Ctrl-Shift-N)
-nnoremap <leader>sS :action GotoSymbol<CR> " (Ctrl-Shift-Alt-N)
-nnoremap <leader>st :action TextSearchAction<CR> " (Ctrl-Alt-Shift-E)
-nnoremap <leader>sF :action FindInPath<CR> " (Ctrl-Shift-F)
-nnoremap <leader>sR :action ReplaceInPath<CR> " (Ctrl-Shift-R)
+" IntelliJ search and navigation actions, respectively:
+" - (Ctrl-F) 
+" - (Ctrl-R) 
+" - (F12) 
+" - (Shift-Shift) 
+" - (Ctrl-N) 
+" - (Ctrl-Shift-N) 
+" - (Ctrl-Shift-Alt-N) 
+" - (Ctrl-Alt-Shift-E) 
+" - (Ctrl-Shift-F) 
+" - (Ctrl-Shift-R)
+nnoremap <leader>/ :action Find<CR>
+nnoremap <leader>r :action Replace<CR>
+nnoremap <leader>gs :action FileStructurePopup<CR>
+nnoremap <leader>ss :action SearchEverywhere<CR>
+nnoremap <leader>sc :action GotoClass<CR>
+nnoremap <leader>sf :action GotoFile<CR>
+nnoremap <leader>sS :action GotoSymbol<CR>
+nnoremap <leader>st :action TextSearchAction<CR>
+nnoremap <leader>sF :action FindInPath<CR>
+nnoremap <leader>sR :action ReplaceInPath<CR>
 
 " More navigation actions, respectively:
 " Select File in Project hierarchy (Alt-F1, 1)
