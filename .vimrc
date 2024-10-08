@@ -146,19 +146,14 @@ Plug 'tpope/vim-commentary'
 
 " Enable surround functionality
 set surround
+
 " Normally the { and } motions only match completely empty lines. With this plugin lines that only contain whitespace are also matched.
 set vim-paragraph-motion
+
 " Highlights unique characters in each word when using f/F/t/T.
 let g:qs_secondary_color = '#826CEB'
 set quickscope
 
-"" IDE Action Mappings
-" Uncomment and modify these as needed
-" Map \r to Reformat Code action
-"map \r <Action>(ReformatCode)
-
-" Map <leader>d to start debug
-"map <leader>d <Action>(Debug)
-
-" Map \b to toggle breakpoint on current line
-"map \b <Action>(ToggleLineBreakpoint)
+set which-key
+let g:WhichKey_ShowVimActions = "true"
+set notimeout
