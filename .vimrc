@@ -17,6 +17,7 @@ source ~/.intellimacs/which-key.vim
 nmap å <leader>m
 vmap å <leader>m
 
+"" Intellimacs Overrides
 let g:WhichKeyDesc_Files_IDE_EditIdeaVimRc = "<leader>fer edit-ideavimrc"
 nnoremap <leader>fer    :e ~/ideavimrc/.vimrc<CR>
 vnoremap <leader>fer    <Esc>:e ~/ideavimrc/.vimrc<CR>
@@ -24,6 +25,16 @@ vnoremap <leader>fer    <Esc>:e ~/ideavimrc/.vimrc<CR>
 let g:WhichKeyDesc_Files_IDE_ReloadIdeaVimRc = "<leader>feR reload-ideavimrc"
 nnoremap <leader>feR    :action IdeaVim.ReloadVimRc.reload<CR>
 vnoremap <leader>feR    <Esc>:action IdeaVim.ReloadVimRc.reload<CR>
+
+" Split window right
+let g:WhichKeyDesc_Windows_SplitWindowRightV = "<leader>wv move-window-right"
+nnoremap <leader>wv    :action MoveTabRight<CR>
+vnoremap <leader>wv    <Esc>:action MoveTabRight<CR>
+
+" Split window below
+let g:WhichKeyDesc_Windows_SplitWindowBelowS = "<leader>ws move-window-below"
+nnoremap <leader>ws    :action MoveTabDown<CR>
+vnoremap <leader>ws    <Esc>:action MoveTabDown<CR>
 
 "" General Settings
 " Show a few lines of context around the cursor
