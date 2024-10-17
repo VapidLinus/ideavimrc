@@ -39,7 +39,7 @@ nnoremap gq :action QuickImplementations<CR>
 nnoremap <leader> <Nop>
 vnoremap <leader> <Nop>
 
-" Map Space + h to go to start of line
+" Easier binds for umping to start and end of line
 nnoremap <leader>h ^
 vnoremap <leader>h ^
 onoremap <leader>h ^
@@ -48,6 +48,11 @@ onoremap <leader>h ^
 nnoremap <leader>l $
 vnoremap <leader>l $
 onoremap <leader>l $
+
+nnoremap gh ^
+vnoremap gh ^
+nnoremap gl $
+vnoremap gl $
 
 " Map Space + y to yank to system clipboard
 nnoremap <leader>y "*y
@@ -134,7 +139,9 @@ nnoremap <leader>vi :action SelectIn<CR>
 map Q gq
 
 " Map gh to show quick documentation
-map gh <Action>(QuickJavaDoc)
+map gH <Action>(QuickJavaDoc)
+map gr <Action>(ShowUsages)
+map gR <Action>(FindUsages)
 
 " Set handler for Ctrl+W in normal mode to Vim, in insert and visual modes to IDE
 sethandler <C-w> n:vim i-v:ide
