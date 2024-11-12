@@ -36,6 +36,9 @@ let g:WhichKeyDesc_Windows_SplitWindowBelowS = "<leader>ws move-window-below"
 nnoremap <leader>ws    :action MoveTabDown<CR>
 vnoremap <leader>ws    <Esc>:action MoveTabDown<CR>
 
+"" Intellimacs New
+noremap <leader>pn    :action ShowNavBar<CR>
+
 "" General Settings
 " Show a few lines of context around the cursor
 set scrolloff=10
