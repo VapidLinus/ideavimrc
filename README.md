@@ -12,4 +12,5 @@ git clone https://github.com/MarcoIeni/intellimacs .intellimacs
 ```
 
 Space is the leader key.
-Open the config with ` fed` and reload with ` frd` (file edit/reload dotfile).
+
+Open the config with ` fer` and reload with ` feR`.
