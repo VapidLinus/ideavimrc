@@ -6,5 +6,10 @@ Clone this repo as a new folder called `ideavimrc` in `%userprofile%` or `~` and
 source ~/ideavimrc/.vimrc
 ```
 
+intellimacs is a depedency for this config and needs to also be clined in `%userprofile%` as `.intellimacs`:
+```.vimrc
+git clone https://github.com/MarcoIeni/intellimacs ~/.intellimacs
+```
+
 Space is the leader key.
 Open the config with ` fed` and reload with ` frd` (file edit/reload dotfile).
