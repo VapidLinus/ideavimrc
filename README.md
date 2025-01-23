@@ -6,9 +6,9 @@ Clone this repo as a new folder called `ideavimrc` in `%userprofile%` or `~` and
 source ~/ideavimrc/.vimrc
 ```
 
-intellimacs is a depedency for this config and needs to also be clined in `%userprofile%` as `.intellimacs`:
+intellimacs is a depedency for this config and needs to also be cloned in `%userprofile%` as `.intellimacs`:
 ```.vimrc
-git clone https://github.com/MarcoIeni/intellimacs ~/.intellimacs
+git clone https://github.com/MarcoIeni/intellimacs .intellimacs
 ```
 
 Space is the leader key.
