@@ -79,6 +79,14 @@ vnoremap gh ^
 nnoremap gl $
 vnoremap gl $
 
+" make marks easier to use
+nnoremap ' `
+nnoremap ` '
+vnoremap ' `
+vnoremap ` '
+nnoremap mm :action ToggleBookmark<CR>
+vnoremap mm :action ToggleBookmark<CR>
+
 " Map Space + y to yank to system clipboard
 nnoremap <leader>Y "*y
 vnoremap <leader>Y "*y
